@@ -45,6 +45,9 @@ This is a realitively simple JS web app that I have created.
 		const input = document.querySelector("#new-task-input");
 		const list_el = document.querySelector("#tasks");
 `
+`
+`
+`
 
  * An event listener is added to the 'form' variable   ( submit and (e) , are instanciated in the argument or function header ) ;
  * Then 'preventDefault' is invoked through e (new variable expressed as a character) .
