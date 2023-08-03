@@ -39,7 +39,7 @@ This is a realitively simple JS web app that I have created.
 *  window.addEventListener   // loads after main page (DOM) is loaded
 *  Constants are created via querySelectors which are passed through  elements beginning with #.
 
-
+`
 	window.addEventListener('load', () => {
 		const form = document.querySelector("#new-task-form");
 		const input = document.querySelector("#new-task-input");
