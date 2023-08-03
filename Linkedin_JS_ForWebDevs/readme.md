@@ -6,6 +6,8 @@ The folder :
 
 * Exercises is the root folder:-
 
+The folders:-
+
 ### * CourseSolutions, 
 * is the folder with the pre-completed code for the course.  I have manipulated and gone through this code with a fine toothcomb for understanding.
 
