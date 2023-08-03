@@ -40,15 +40,14 @@ This is a realitively simple JS web app that I have created.
 *  Constants 	// are created via querySelectors which are passed through  elements beginning with #.
 
 `
-&nbsp;
-&nbsp;
+
+
 	window.addEventListener('load', () => {
 		const form = document.querySelector("#new-task-form");
 		const input = document.querySelector("#new-task-input");
 		const list_el = document.querySelector("#tasks");
-&nbsp;
-&nbsp;
-&nbsp;
+
+
 `
 
  * An event listener is added to the 'form' variable   ( submit and (e) , are instanciated in the argument or function header ) ;
