@@ -37,20 +37,25 @@ This is a realitively simple JS web app that I have created.
 
 
 *  window.addEventListener   // loads after main page (DOM) is loaded
-*  Constants are created via querySelectors which are passed through  elements beginning with #
+*  Constants are created via querySelectors which are passed through  elements beginning with #.
 
 
-window.addEventListener('load', () => {
-	const form = document.querySelector("#new-task-form");
-	const input = document.querySelector("#new-task-input");
-	const list_el = document.querySelector("#tasks");
+	window.addEventListener('load', () => {
+		const form = document.querySelector("#new-task-form");
+		const input = document.querySelector("#new-task-input");
+		const list_el = document.querySelector("#tasks");
 
 
- * an event listener is added to the 'form' variable   ( submit and (e) are instanciated in the argument or function header )
- * then preventDefault is invoked through e
+ * An event listener is added to the 'form' variable   ( submit and (e) are instanciated in the argument or function header )
+ * Then preventDefault is invoked through e
 
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
+
+
+*Here in this next section of JS, there are constant variables created and given 'mini functions'  such as  input.value  .  This is then added again via other created variables by being passed through and connected, example:  task_el.classList.add('task');  
+
+
 
 		const task = input.value;
 
@@ -61,6 +66,9 @@ window.addEventListener('load', () => {
 		task_content_el.classList.add('content');
 
 		task_el.appendChild(task_content_el);
+
+ 
+  * const task_input_el = document.createElement('input');
 
 		const task_input_el = document.createElement('input');
 		task_input_el.classList.add('text');
