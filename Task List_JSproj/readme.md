@@ -48,14 +48,18 @@ This is a realitively simple JS web app that I have created.
 		const list_el = document.querySelector("#tasks");
 
 
-`
+
 
  * An event listener is added to the 'form' variable   ( submit and (e) , are instanciated in the argument or function header ) ;
  * Then 'preventDefault' is invoked through e (new variable expressed as a character) .
 
-`	form.addEventListener('submit', (e) => {
-		e.preventDefault();
 `
+	form.addEventListener('submit', (e) => {
+		e.preventDefault();
+  &nbsp;
+  &nbsp;
+`
+
 
 *Here in this next section of JS, there are constant variables created and given 'mini functions'  such as  input.value  .  This is then added again via other created variables by being passed through and connected, example:  task_el.classList.add('task');  
 
