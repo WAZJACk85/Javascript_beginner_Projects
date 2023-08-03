@@ -6,7 +6,7 @@ This is a relatively simple JS web app that I have created.
 
 *  It allows you to type and add events or tasks you plan to do in an input bar and then adds them to a list below.
 
-*  You have an add button to add the task;
+*  You have an add task button to add the task;
 
 *  You have a delete button to delete existing tasks;
 
