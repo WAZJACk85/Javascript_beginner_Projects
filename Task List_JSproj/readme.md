@@ -1,7 +1,7 @@
 # Introduction
 
 
-This is a realitively simple JS web app that I have created. 
+This is a relatively simple JS web app that I have created. 
 
 
 *  It allows you to type and add events or tasks you plan to do in an input bar and then adds them to a list below.
@@ -22,13 +22,13 @@ This is a realitively simple JS web app that I have created.
 
 
 
-#*HTML
+# * HTML
 
 
 
 
 
-#*CSS
+# * CSS
 
 
 
@@ -57,6 +57,8 @@ This is a realitively simple JS web app that I have created.
 
 
  * An event listener is added to the 'form' variable   ( submit and (e) , are instanciated in the argument or function header ) ;
+ * The function args (or header)  starts with {  and therefore the event listener 'form' is the main argument that is passed to the DOM or webpage, other variables
+   are passed in sub functions via the head of the JS.
  * Then 'preventDefault' is invoked through e (new variable expressed as a character) .
 
 `
