@@ -45,7 +45,7 @@ This is a relatively simple JS web app that I have created.
 *  window.addEventListener   	// loads after main page (DOM) is loaded. via  'load', () =>
 *  Constants 	// are created via querySelectors which are passed through  elements beginning with #.
 
-`
+```
 
 
 	window.addEventListener('load', () => {
@@ -53,7 +53,7 @@ This is a relatively simple JS web app that I have created.
 		const input = document.querySelector("#new-task-input");
 		const list_el = document.querySelector("#tasks");
 
-
+```
 
 
  * An event listener is added to the 'form' variable   ( submit and (e) , are instanciated in the argument or function header ) ;
@@ -61,13 +61,13 @@ This is a relatively simple JS web app that I have created.
    are passed in sub functions via the head of the JS.
  * Then 'preventDefault' is invoked through e (new variable expressed as a character) .
 
-`
+```
 	form.addEventListener('submit', (e) => {
 		e.preventDefault();
-`
+
   
 
-
+```
 
 *Here in this next section of JS, there are constant variables created and given 'mini functions'  such as  input.value  .  This is then added again via other created variables by being passed through and connected, example:  task_el.classList.add('task');  
 
