@@ -9,4 +9,6 @@ for my Frontend full stack projects, the name of this repository can be clicked 
                              Some are follow along, and some are creative task Challenges, where you devise your own solution, these may have comments.
 
 
-* 1st Javascript Project
+* Task List Javascript Project
+
+* 2nd Javascript Project
