@@ -86,6 +86,7 @@ This is a relatively simple JS web app that I have created.
  
   * const task_input_el = document.createElement('input');
 
+```
 		const task_input_el = document.createElement('input');
 		task_input_el.classList.add('text');
 		task_input_el.type = 'text';
@@ -130,6 +131,6 @@ This is a relatively simple JS web app that I have created.
 		});
 	});
 });
-
+```
 
 
