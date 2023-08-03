@@ -1,6 +1,6 @@
 # Introduction
 
-This repositry is here to give a flavour of the types of Javascript projects, programs and functions I have been working with.  There is a separate repository,
+This repository is here to give a flavour of the types of Javascript projects, programs and functions I have been working with.  There is a separate repository,
 for my Frontend full stack projects, the name of this repository can be clicked here on this link ...
 
 # Javascript_beginner  Index :-
