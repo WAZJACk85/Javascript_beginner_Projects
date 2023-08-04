@@ -25,7 +25,28 @@ This is a relatively simple JS web app that I have created.
 # * HTML
 
 
+* As you can see below, the top of the HTML page has two input elements formatted via the CSS.  The ID is the passed to Javascript and the value (value="Add Task")  is
+  what is printed and appears as the Add Task text in the header(top) of the page. This is also passed to the Javascript file and is made clickable and the Javascript
+  then
 
+```
+
+<header>
+		<h1>Task List 2022</h1>
+		<form id="new-task-form">
+			<input 
+				type="text" 
+				name="new-task-input" 
+				id="new-task-input" 
+				placeholder="What do you have planned?" />
+			<input 
+				type="submit"
+				id="new-task-submit" 
+				value="Add Task" />
+		</form>
+	</header>
+
+```
 
 
 # * CSS
